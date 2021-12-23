@@ -1,0 +1,24 @@
+.puslapis{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eglute{
+    display: block;
+    position: relative;
+}
+
+.zaisliukas{
+    position: absolute;
+}
+
+.pavadinimas{
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 32px;
+}
