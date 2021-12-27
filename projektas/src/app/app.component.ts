@@ -15,6 +15,7 @@ export class AppComponent {
     fetch("https://kaledinisapi.herokuapp.com/zaisliukas").then(data => data.json().then( json => this.mindaugo = json.kaledinioZaisliukoNuotrauka))
     fetch("https://kaledinis.herokuapp.com/").then(data => data.json().then( json => this.pauliaus = json.kaledinioZaisliukoNuotrauka))
     fetch("https://zydriuskaledinis.herokuapp.com").then(data => data.json().then( json => this.zydruno = json.kaledinioZaisliukoNuotrauka))
+    fetch("https://kalediniszaislas258.herokuapp.com/").then(data => data.json().then( json => this.egidijaus = json.kaledinioZaisliukoNuotrauka))
 
   }
 
@@ -24,4 +25,6 @@ export class AppComponent {
   mindaugo = "assets/loader.gif"
   pauliaus = "assets/loader.gif"
   zydruno = "assets/loader.gif"
+  egidijaus = "assets/loader.gif"
+  
 }
